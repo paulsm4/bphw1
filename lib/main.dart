@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import './login_page.dart';
-import './summary_page.dart';
+import '/screens/login_page.dart';
+import '/screens/summary_page.dart';
 
 
 void main() {
@@ -19,6 +19,7 @@ class BPHWApp1 extends StatelessWidget {
         '/summary': (context) => SummaryPage(),
       },
       initialRoute: '/',
+      debugShowCheckedModeBanner: false,
     );
   }
 }
